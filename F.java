@@ -47,7 +47,7 @@ public class ZipperApplication {
 
          
             HttpHeaders headers = new HttpHeaders();
-            headers.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=compressed_response.zip");
+            headers.add(HttpHeaders.CONTENT_DISPOSITION, "atp");
 
           
             return ResponseEntity.ok()
